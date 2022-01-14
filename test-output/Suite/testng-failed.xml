@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.rest.RESTAssuredJSONTests">
+        <methods>
+          <include name="get_with_param" invocation-numbers="0 1"/>
+          <include name="simple_get_test"/>
+          <include name="post_test"/>
+          <include name="put_test"/>
+        </methods>
+      </class> <!-- com.rest.RESTAssuredJSONTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
